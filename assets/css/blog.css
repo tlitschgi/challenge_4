@@ -1,0 +1,154 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+
+/* Light Mode */
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+.dark {
+  background-color: black;
+  color: white; 
+}
+
+.dark body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-right: auto;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+#buttons {
+  margin-right: 50px;
+}
+
+#buttons a {
+  padding-right: 10px;
+}
+
+.dark #buttons a {
+  color: white;
+}
+
+.top-border {
+  border-top-style: double;
+  border-width: 10px;
+  box-sizing: border-box;
+  margin: 0 40px;
+  padding: 5px;
+}
+
+#blogEntriesContainer {
+  margin: 0 50px;
+}
+
+.blogDetails {
+  border: 2px solid black;
+}
+
+.dark .blogDetails {
+  border: 2px solid white;
+}
+
+.blogDetails li {
+  display: block;
+  margin-left: 0;
+  font-size: 12px;
+}
+
+.blogTitle {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.horizontal-line {
+  border: none;
+  height: 1px; 
+  background-color: #333;
+  margin-bottom: 0;
+  margin-right: 10px; 
+}
+
+.dark .horizontal-line {
+  border: none;
+  height: 1px; 
+  background-color: white;
+  margin-bottom: 0;
+  margin-right: 10px; 
+}
+
+.blogContent {
+  font-style: italic;
+  text-indent: 5px;
+  margin-top: 10px;
+}
+
+.blogAuthor {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.bottom-border {
+  border-bottom-style: double;
+  border-width: 10px;
+  box-sizing: border-box;
+  margin: 0 40px;
+  padding: 90px;
+}
+
+.white-border {
+  border-color: white;
+}
+
+.black-border {
+  border-color: black;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  padding-bottom: 2px;
+  bottom: 0px;
+  margin-top: auto;
+
+}
+
+h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  }
+
+.dark .footer a {
+  color: white;
+}
+
+.footer p {
+  font-style: italic;
+  font-size: 10px;
+  margin-left: 50px;
+}
